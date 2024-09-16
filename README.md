@@ -104,7 +104,7 @@ int main() {
   std::cout << str6 << '\n';  // World
 
   const char* c_style_str = str3.CStr();
-  std::cout << "C-style строка: " << c_style_str << '\n';  // Output: C-style строка: Hello, World!
+  std::cout << "C-style строка: " << c_style_str << '\n';  // C-style строка: Hello, World!
   return 0;
 }
 ```
